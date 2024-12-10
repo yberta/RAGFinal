@@ -11,11 +11,10 @@
     "ajv-keywords": "^5.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "recipe-generator/node_modules/.bin/react-scripts start",
+    "start": "node_modules/.bin/react-scripts start",
     "build": "recipe-generator/node_modules/.bin/react-scripts build",
     "test": "recipe-generator/node_modules/.bin/react-scripts test",
     "eject": "recipe-generator/node_modules/.bin/react-scripts eject"
@@ -41,6 +40,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.4.16"
   }
 }

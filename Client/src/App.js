@@ -133,13 +133,13 @@ function App() {
   useEffect(() => {
     return() => {
       closeEventStream();
-    };// Close any existing connection
+    };
   }, []);
 
   useEffect(() => {
     if (recipeData) {
-      closeEventStream(); // Close any existing connection
-      initializeEventStream(); // Open a new connection
+      closeEventStream();
+      initializeEventStream();
     }
   }, [recipeData]);
 
